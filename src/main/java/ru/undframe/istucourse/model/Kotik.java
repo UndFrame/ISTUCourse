@@ -108,12 +108,15 @@ public class Kotik {
                 case 0:
                     if(!play())
                         eat();
+                    break;
                 case 1:
                     if(!sleep())
                         eat();
+                    break;
                 case 2:
                     if(!chaseMouse())
                         eat();
+                    break;
             }
 
 
